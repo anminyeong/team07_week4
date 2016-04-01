@@ -8,8 +8,7 @@ public class Calculate {
 		else if(user_plan.equals("silver"))
 			user_used_plan = new Silver(user_time,num_line);
 		else{
-			System.out.println("plan�� �߸� �Է���ϴ�.");
-			System.exit(0);
+			throw new IllegalArgumentException("plan이 잘못 입력됬습니다.");
 		}			
 	}
 	
