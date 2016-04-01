@@ -1,12 +1,12 @@
 # team07_week4
 team07_week4
 
-<em> Build부분 </em>
+<strong> Build부분 </strong>
 Root rom : test1/pom.xml  <br>
 Goals and options : package
 <br>
 
-<em> Pre Steps부분 </em> <br>
+<strong> Pre Steps부분 </strong> <br>
  	Analysis properties : <br>
 sonar.projectKey=sample <br>
 sonar.projectName=sample <br>
