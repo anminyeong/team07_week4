@@ -4,8 +4,6 @@ import java.util.Scanner;
 import java.util.logging.*;
 
 import test_hw.Calculate;
-import test_hw.Run;
-
 /**
  * Hello world!
  *
