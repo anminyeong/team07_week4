@@ -10,6 +10,11 @@ public class App
 {
     public static void main( String[] args )
     {
-    	new Run();
+    	try{
+    		new Run(); 
+    	}
+    	catch(Exception e){
+    		throw new IllegalArgumentException("run error");
+    	}
     }
 }
