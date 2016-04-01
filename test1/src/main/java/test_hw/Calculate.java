@@ -3,9 +3,11 @@ package test_hw;
 public class Calculate {
 	private Plan user_used_plan;
 	public Calculate(String user_plan, int user_time, int num_line){
-		if(user_plan.equals("gold"))
+		String gold = "gold";
+		String silver = "silver";
+		if(user_plan.equals(gold))
 			user_used_plan = new Gold(user_time,num_line);
-		else if(user_plan.equals("silver"))
+		else if(user_plan.equals(silver))
 			user_used_plan = new Silver(user_time,num_line);
 		else{
 			throw new IllegalArgumentException("plan이 잘못 입력됬습니다.");
