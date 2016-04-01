@@ -9,14 +9,14 @@ public class Run {
 	private int line;
 	private double bill;
 	public Run(){
-		System.out.println("plan�� �Է����ּ���.");
+		System.out.println("plan을 입력해주세요.");
 		name = aScanner.next();
-		System.out.println("�� ���ð��� �Է����ּ���.");
+		System.out.println("총 사용시간을 입력해주세요.");
 		minute = aScanner.nextInt();
-		System.out.println("���ȸ�� ���� �Է����ּ���.");
+		System.out.println("사용회선 수를 입력해주세요.");
 		line = aScanner.nextInt();
 		Calculate aCalculate = new Calculate(name,minute,line);
 		bill = aCalculate.calculate();
-		System.out.println("����� �ݾ���:"+bill+"�Դϴ�.");
+		System.out.println("사용한 금액은:"+bill+"입니다.");
 	}
 }
