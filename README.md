@@ -2,12 +2,13 @@
 team07_week4
 
 Build부분
-Root rom : test1/pom.xml
+Root rom : test1/pom.xml  <br>
 Goals and options : package
+<br>
 
-Pre Steps부분
- 	Analysis properties :
-sonar.projectKey=sample
-sonar.projectName=sample
-sonar.projectVersion=0.0.1
+Pre Steps부분 <br>
+ 	Analysis properties : <br>
+sonar.projectKey=sample <br>
+sonar.projectName=sample <br>
+sonar.projectVersion=0.0.1 <br>
 sonar.sources=test1/src
